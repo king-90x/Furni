@@ -1,0 +1,381 @@
+@media only screen and (max-width:500px) {
+    .mono-nav {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+        color: white;
+    }
+    .mono-nav img{
+        width: 40px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .right {
+        width: 50%;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right img {
+        width: 400px;
+        position: absolute;
+        left: 30px;
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .pimg {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 90px;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .card-data {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-top: 0px;
+        gap: 20px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        padding-right: 10px;
+    }
+
+    .card1 img {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+    }
+
+    .card2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .card2 img {
+        object-fit: cover;
+    }
+
+    .card3 {
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .card3 img {
+        object-fit: cover;
+    }
+
+    .container2 {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .left1 {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .cd1 {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .card4 {
+        width: 100%;
+        
+    }
+
+    .card5 {
+        width: 100%;
+        
+    }
+
+    .card6 {
+        width: 100%;
+    
+    }
+
+    .card7 {
+        width: 100%;
+        
+    }
+
+    .right1 {
+        width: 100%;
+    }
+
+    .container3 {
+        flex-direction: column;
+    }
+
+    .left2 {
+        width: 100%;
+    }
+
+    .card8 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card9 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .timg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .right2 {
+        width: 100%;
+    }
+
+    .container4 {
+        gap: 50px;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .card14 {
+        width: 100%;
+        flex-direction: column;
+       
+        gap: 5px;
+    }
+    .left3 img{
+        padding: 0;
+    }
+    .card14 img{
+        padding-left: 0;
+    }
+
+    .right3 {
+        width: 100%;
+    }
+
+    .card15 {
+        width: 100%;
+        flex-direction: column;
+        
+        gap: 5px;
+    }
+
+    .right4 {
+        width: 100%;
+    }
+
+    .card16 {
+        width: 100%;
+        flex-direction: column;
+       
+        gap: 5px;
+    }
+
+    .right5 {
+        width: 100%;
+    }
+
+    .container5 {
+        gap: 20px;
+        height: 100%;
+        padding: 40px;
+    }
+
+    .card-data1 {
+        padding: 30px;
+    }
+
+    .container6 {
+        gap: 30px;
+        height: 150vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-data2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card17 {
+        width: 100%;
+        padding-left: 65px;
+    }
+
+    .card17 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card18 {
+        width: 100%;
+        padding-left: 65px;
+    }
+
+    .card18 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card19 {
+        width: 100%;
+        padding-left: 65px;
+    }
+
+    .card19 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card-data3 {
+        flex-direction: column;
+    }
+
+    .card23 img {
+        top: 20px;
+        right: 50px;
+    }
+
+    .container7 {
+        gap: 0px;
+    }
+    
+    .card-data4 {
+        flex-wrap: wrap;
+        gap: 0px;
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .card24 {
+        display: none;
+    }
+
+    .card26 {
+        
+        width: 50%;
+        height: 50%;
+        
+    }
+
+    .card26 ul {
+        flex-direction: column;
+    }
+
+    .card27 {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card27 ul {
+        flex-direction: column;
+    }
+
+    .card28 {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card28 ul {
+        flex-direction: column;
+    }
+
+    .card29 {
+        width: 50%;
+        height: 50%;
+    }
+
+    .card29 ul {
+        flex-direction: column;
+    }
+
+    .container8 {
+        width: 100%;
+        height: 50%;
+       
+    }
+
+    .navbar7 {
+        display: none;
+    }
+
+    .card-data6 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        padding: 0;
+    }
+    .card30{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .card31{
+        width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .container7{
+        padding-bottom: 0;
+        gap: 0;
+    }
+
+    .card20 {
+        padding-bottom: 10px;
+    }
+
+    .card-data1 h2 {
+        font-size: 20px;
+    }
+    .card21 h3{
+        font-size: 15px;
+    }
+    .card22 h3{
+        font-size: 15px;
+    }
+}
